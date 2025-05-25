@@ -42,8 +42,7 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-github-username/neeswarth-website.git](https://github.com/your-github-username/neeswarth-website.git)
-    # Remember to replace 'your-github-username' with your actual GitHub username
+    git clone [https://github.com/Mitansh2005/Nee-swarth.git]
     ```
 2.  **Navigate into the project directory:**
     ```bash
