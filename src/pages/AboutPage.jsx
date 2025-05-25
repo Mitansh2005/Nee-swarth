@@ -16,14 +16,16 @@ export const AboutPage = () => {
 	return (
 		<>
 			<div>
-				<div class="container mx-auto px-16 py-16 mt-10">
-					<h1 class="text-6xl font-semibold text-white text-center mb-8">
-						About <span class="text-[#FF6200]">NEE-SWARTH</span>
+				<div class="container mx-auto px-10 lg:px-16 py-16 mt-10">
+					<h1 class="text-[44px] sm:text-6xl md:text-4xl lg:text-6xl font-semibold text-white text-center mb-8">
+						About 
+						<br/>
+						<span class="text-[#FF6200]">NEE-SWARTH</span>
 					</h1>
 
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-19">
 						<div>
-							<h2 class="text-4xl font-semibold text-[#ff6200] mb-6">
+							<h2 class="text-2xl lg:text-4xl font-semibold text-[#ff6200] mb-6">
 								Why Nee-Swarth?
 							</h2>
 							<p class="text-white text-lg mb-8 leading-relaxed">
@@ -68,7 +70,7 @@ export const AboutPage = () => {
 						</div>
 
 						<div>
-							<h2 class="text-4xl font-semibold text-white mb-6">
+							<h2 class="text-3xl lg:text-4xl font-semibold text-white mb-6">
 								Our <span className="text-[#ff6200]">Philosophy</span>
 							</h2>
 

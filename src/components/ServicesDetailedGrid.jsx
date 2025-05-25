@@ -81,8 +81,8 @@ export const ServicesDetailGrid = ({ services }) => {
 										transform: "rotateY(180deg)",
 									}}
 								>
-									<div className="relative z-20 flex flex-col items-center justify-center p-4 w-full h-full gap-4 text-center rounded-lg overflow-auto">
-										<h3 className="text-3xl font-semibold text-blue-400">
+									<div className="relative z-20 flex flex-col items-center justify-center p-4 w-full max-h-full gap-4 text-center rounded-lg overflow-auto">
+										<h3 className="text-2xl font-semibold text-blue-400">
 											{service.title}
 										</h3>
 										<p className="text-sm text-white/90 px-4">

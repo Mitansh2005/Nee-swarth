@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Arrow from "../assets/icons/right-arrow.png";
 
-export const ContactForm = () => {
+export const ContactForm = ({className}) => {
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
@@ -25,12 +25,12 @@ export const ContactForm = () => {
 
 	return (
 		<div
-			className="relative z-10 p-3 sm:p-5 md:p-6 rounded-3xl overflow-hidden
+			className={`relative z-10 p-3 sm:p-5 md:p-6 rounded-3xl overflow-hidden
                     bg-gradient-to-br from-purple-800/20 to-blue-800/10 backdrop-filter backdrop-blur-lg
                     shadow-2xl shadow-purple-700/40
                     w-full max-w-lg mx-auto my-6
                     transform transition-all duration-500 ease-in-out
-                    hover:shadow-3xl hover:shadow-purple-700/60"
+                    hover:shadow-3xl hover:shadow-purple-700/60 ${className}`}
 		>
 			<h2 className="text-xl sm:text-2xl font-bold text-white text-center mb-4 sm:mb-6">
 				Ready to have a quick discussion?

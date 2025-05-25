@@ -14,7 +14,7 @@ export const HomePage = () => {
 		{
 			title: "Computer Vision",
 			image: ComputerVisionImg,
-			details: "Innovative solutions for visual data analysis and automation.", 
+			details: "Innovative solutions for visual data analysis and automation.",
 		},
 		{
 			title: "Cloud Solutions",
@@ -83,8 +83,9 @@ export const HomePage = () => {
 				</h1>
 				<ServicesGrid cards={cards} />
 			</div>
-
-			<ContactForm />
+			<div className="px-6">
+				<ContactForm className="px-4" />
+			</div>
 		</>
 	);
 };
