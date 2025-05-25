@@ -46,7 +46,7 @@ Before you begin, ensure you have the following installed:
     ```
 2.  **Navigate into the project directory:**
     ```bash
-    cd neeswarth-website
+    cd Nee-swarth
     ```
 3.  **Install dependencies:**
     ```bash
